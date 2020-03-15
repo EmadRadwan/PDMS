@@ -1,0 +1,5 @@
+bin
+git
+.vscode
+.DS_Store
+appsettings.json

@@ -1,0 +1,47 @@
+dotnet --info
+
+Make sure of SDK and NetCore version
+
+cd to the new folder
+
+dotnet new sln
+
+dotnet new classlib -n Domain
+
+dotnet new classlib -n Application
+
+
+dotnet new classlib -n Persistence
+
+dotnet new webapi -n API
+
+dotnet sln add Domain
+dotnet sln add Application
+dotnet sln add Persistence
+dotnet sln add API
+
+>dotnet sln list
+
+cd Application
+
+dotnet add reference ../Domain/
+dotnet add reference ../Persistence/
+cd..
+cd API
+dotnet add reference ../Application
+cd..
+cd Persistence
+dotnet add reference ../Domain
+
+Startup.cs	-> comment app.UseHttpsRedirection()
+
+properties->LaunchSettings.json	->	remove hhts listening
+
+
+
+
+
+
+
+
+
