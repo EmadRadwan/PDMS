@@ -20,7 +20,7 @@
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -94,6 +94,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/3.1.2": {
@@ -1346,10 +1362,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1362,6 +1378,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1371,7 +1388,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1497,6 +1514,22 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/3.1.2": {
+      "sha512": "DVbwHFZVWp37ti2uAqzSnfLqqvI1TjxLy8xOYm5jAyFLr/9OiGGyJHdtrMr3n62SG28eV3CeD+N4YwedyVhKSQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.2": {
@@ -4975,7 +5008,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Application >= 1.0.0"
+      "Application >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.2"
     ]
   },
   "packageFolders": {
@@ -4984,11 +5018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\Public\\PDMS-DEV\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Public\\PDMS-DEV\\API\\API.csproj",
       "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Public\\PDMS-DEV\\API\\obj\\",
+      "outputPath": "C:\\Users\\Public\\PDMS-DEV\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5004,8 +5038,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
-              "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj"
+            "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj"
             }
           }
         }
@@ -5018,6 +5052,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

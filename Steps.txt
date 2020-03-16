@@ -37,6 +37,10 @@ Startup.cs	-> comment app.UseHttpsRedirection()
 
 properties->LaunchSettings.json	->	remove hhts listening
 
+--------------------------------------------------
+
+npx create-react-app client-app --use-npm --typescript
+
 
 
 

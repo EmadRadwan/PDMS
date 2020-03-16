@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj"
               }
             }
           }
