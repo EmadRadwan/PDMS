@@ -41,11 +41,43 @@ properties->LaunchSettings.json	->	remove hhts listening
 
 npx create-react-app client-app --use-npm --typescript
 
+-----------------------------------------------------
+
+create activity.cs entity under Domain
+add Dbset<> in Persistence
+cd root
+dotnet ef migrations add "ActivityEntityAdded" -p Persistence -s API
+create seed class
+add Seed.SeedData(context) in program.cs
+cd api
+dotnet watch run
+
+CQRS
+Event Store
+Clean Architecture
+MediatR
+
+add Mediatr to the Application project under Activities folder
+add List.cs  -> This is the Handler
+
+add ActivitiesController under Api/Controllers
+
+inject MediatR in startup.cs
+///////////////////////
+
+Add Detail Handler:
+add class Detail under Application->Activities folder
+add class Query -> implement Irequest, bring Doman, MediatR
+inside activity add property ID of type GUID, bring system
+add handler -> Handler, and implement interface from menu
+generate constructor for class handler from the . menu
+add context parameter to constructor of type DataContext, bring Persistence
+initialize field from parameter context
+adjust Tasl<> method
+
+Test from Postman.
+/////////////////////////////////////////////////////////
 
 
-
-
-
-
-
-
+Edit with chandler
+add using statements

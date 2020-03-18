@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistence;
 
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200317055935_ActivityEntityAdded")]
+    partial class ActivityEntityAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,13 +30,10 @@ namespace Persistence.Migrations
                     b.Property<string>("Category")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("Discription")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
