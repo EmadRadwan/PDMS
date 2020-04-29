@@ -56,3 +56,7 @@ C:\Users\Public\PDMS-DEV\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandar
 C:\Users\Public\PDMS-DEV\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Public\PDMS-DEV\api\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\Public\PDMS-DEV\api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Public\PDMS-DEV\api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Public\PDMS-DEV\api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Public\PDMS-DEV\api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Public\PDMS-DEV\api\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cs

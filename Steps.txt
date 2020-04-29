@@ -81,3 +81,10 @@ Test from Postman.
 
 Edit with chandler
 add using statements
+
+np:\\.\pipe\LOCALDB#8FF1367C\tsql\query
+SqlLocalDB.exe start MyInstance
+Datasource=(localdb)\MSSQLLocalDB
+sqllocaldb.exe info
+
+xcopy pdms-dev papca /s /exclude:except.txt
