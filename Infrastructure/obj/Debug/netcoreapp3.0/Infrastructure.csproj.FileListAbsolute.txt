@@ -1,0 +1,15 @@
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.deps.json
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.dll
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.pdb
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Application.dll
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Persistence.dll
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Application.pdb
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\Public\PDMS-DEV\infrastructure\bin\Debug\netcoreapp3.0\Persistence.pdb
+C:\Users\Public\PDMS-DEV\infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\Public\PDMS-DEV\infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Public\PDMS-DEV\infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Public\PDMS-DEV\infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.csproj.CopyComplete
+C:\Users\Public\PDMS-DEV\infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.dll
+C:\Users\Public\PDMS-DEV\infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.pdb
