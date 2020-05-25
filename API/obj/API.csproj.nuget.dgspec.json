@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Public\\PDMS-DEV\\API\\API.csproj": {}
+    "C:\\Users\\Public\\PDMS-DEV\\api\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Public\\PDMS-DEV\\API\\API.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\api\\API.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\API\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj"
               },
-              "c:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,11 +103,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj"
               },
-              "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -121,6 +121,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[8.6.2, )"
@@ -163,14 +167,14 @@
         }
       }
     },
-    "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,14 +239,14 @@
         }
       }
     },
-    "c:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -258,8 +262,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Application\\Application.csproj"
               }
             }
           }
@@ -311,14 +315,14 @@
         }
       }
     },
-    "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\er0941\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\PDMS-DEV\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Public\\PDMS-DEV\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\er0941\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -334,8 +338,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj"
+              "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\PDMS-DEV\\Domain\\Domain.csproj"
               }
             }
           }
@@ -350,6 +354,10 @@
         "netcoreapp3.0": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.2, )"
             },

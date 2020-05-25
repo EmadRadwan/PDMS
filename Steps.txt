@@ -85,6 +85,22 @@ add using statements
 np:\\.\pipe\LOCALDB#8FF1367C\tsql\query
 SqlLocalDB.exe start MyInstance
 Datasource=(localdb)\MSSQLLocalDB
-sqllocaldb.exe info
+sqllocaldb.exe info MyInstance 
 
 xcopy pdms-dev papca /s /exclude:except.txt
+
+"DefaultConnection": "server=SRLAAP64;database=piaftables;trusted_connection=true;"
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=(localdb)\\MyInstance;database=PDMS;trusted_connection=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+} 
